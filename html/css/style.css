@@ -78,7 +78,9 @@ ol {
 
 ol li {
     font-size: 1.4rem;
+    line-height: 1.6;
     color: #454545;
+    margin-bottom: 10px;
 }
 
 section {
@@ -118,7 +120,7 @@ nav a:hover {
 section article {
     display: block;
     float: left;
-    width: 70%;
+    width: 67%;
 }
 
 footer {
@@ -177,7 +179,7 @@ footer small {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 428px) {
     .container {
         padding: 0;
         width: auto;
